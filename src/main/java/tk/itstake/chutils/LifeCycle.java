@@ -13,7 +13,7 @@ public class LifeCycle extends AbstractExtension {
     @Override
     public void onStartup() {
         System.out.println("CHActionBar " + getVersion() + " loaded.");
-        Bukkit.getServer().getScheduler().scheduleSyncRepeatingTask((Plugin) this, new Lag(), 100L, 1L);
+        Bukkit.getServer().getScheduler().scheduleSyncRepeatingTask(Bukkit.getPluginManager().getPlugin("CommandHelper"), new Lag(), 100L, 1L);
     }
     
     @Override
