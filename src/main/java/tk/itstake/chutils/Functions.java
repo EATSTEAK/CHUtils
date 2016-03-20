@@ -52,7 +52,7 @@ public class Functions {
         }
 
         public Integer[] numArgs() {
-            return new Integer[]{1,2};
+            return new Integer[]{0};
         }
 
         public String docs() {
